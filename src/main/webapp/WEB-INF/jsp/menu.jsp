@@ -7,8 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="logout">
-		<input type="submit" value="Logout">
-	</form>
+	<a href="addbook">Add Book</a>
+	<br>	
+	<a href="listallbooks">List All Books</a>
+	<br>
+	<a href="searchbookbyidform">Search Book By ID</a>
+	<br>
+	<a href="searchbooksbytitleform">Search Books By Title</a>
+	<br>
+	<a href="deletebookbyid">Delete Book By ID</a>
+	<br>
+	<a href="../logout">Logout</a>
 </body>
 </html>

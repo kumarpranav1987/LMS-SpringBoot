@@ -7,7 +7,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.livetechstudy.lms.springboot.entity.User;
-import com.livetechstudy.lms.springboot.entity.UserRepository;
+import com.livetechstudy.lms.springboot.repository.UserRepository;
+
 
 @Service
 public class UserRepositoryUserDetailsService implements UserDetailsService {

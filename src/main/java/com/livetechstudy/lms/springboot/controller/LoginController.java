@@ -15,10 +15,4 @@ public class LoginController {
 	public String login1() {
 		return "login";
 	}
-	
-	@GetMapping("/secure/menu")
-	public String menu() {
-		return "menu";
-	}
-	
 }
